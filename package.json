@@ -1,0 +1,19 @@
+{
+  "name": "express_weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faiza203/Express_Weather.git"
+  },
+  "author": "Faiza 203",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faiza203/Express_Weather/issues"
+  },
+  "homepage": "https://github.com/faiza203/Express_Weather#readme"
+}
