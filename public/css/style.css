@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Piazzolla', serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg: #1e272e;
+    --main-color: #0097e6;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.row {
+    margin: 0;
+}
+
+.main_menu {
+    background-color: var(--main-bg);
+}
+
+.navbar {
+    background-color: var(--main-bg);
+    color: #ffffff;
+    padding: 2rem 0;
+}
+
+.navbar a {
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+.navbar-toggler {
+    background-color: grey;
+}
+
+.navbar li {
+    margin-left: 2rem;
+}
+
+.fa-snowflake {
+    transition: all linear;
+    animation: rot 2s linear infinite;
+    color: var(--main-color);
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.main-header {
+    margin: 0 0 0 12rem;
+}
+
+.main-header-left {
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-header-left p{
+    font-size: 2rem;
+}
+
+.main-header-left h1{
+    font-size: 4rem;
+    margin: 1rem 0 4rem 0;
+    text-transform: capitalize;
+}
+
+.main-header-left .text-clr{
+    color: var(--main-color);
+}
+
+.main-header-right {
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
