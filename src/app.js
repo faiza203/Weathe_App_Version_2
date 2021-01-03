@@ -12,8 +12,8 @@ app.set('view engine', 'hbs');
 //     res.send("Welcome")
 // })
 
-app.get("/about.html" , (req,res) => {
-    res.render("index")
+app.get("/about" , (req,res) => {
+    res.render("about")
 })
 
 app.get("/weather.html" , (req,res) => {
