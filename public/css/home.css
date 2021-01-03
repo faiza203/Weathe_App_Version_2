@@ -1,6 +1,8 @@
-
-.main-header {
-    margin: 0 0 0 12rem;
+.main-header .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
 
 .main-header-left {
@@ -16,7 +18,7 @@
 }
 
 .main-header-left h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 1rem 0 4rem 0;
     text-transform: capitalize;
 }
@@ -31,7 +33,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    margin-left: 20em
+    /* margin-left: 20em */
 }
 
 @media(max-width: 768px) {
