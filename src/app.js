@@ -13,7 +13,7 @@ app.set('view engine', 'hbs');
 // })
 
 app.get("/about.html" , (req,res) => {
-    res.send("I am a developer")
+    res.render("index")
 })
 
 app.get("/weather.html" , (req,res) => {
