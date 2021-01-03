@@ -55,41 +55,6 @@ html {
     color: var(--main-color);
 }
 
-.main-header {
-    margin: 0 0 0 12rem;
-}
-
-.main-header-left {
-    height: 35em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.main-header-left p {
-    font-size: 2rem;
-}
-
-.main-header-left h1 {
-    font-size: 4rem;
-    margin: 1rem 0 4rem 0;
-    text-transform: capitalize;
-}
-
-.main-header-left .text-clr {
-    color: var(--main-color);
-}
-
-.main-header-right {
-    height: 35em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    margin-left: 20em
-}
-
 footer {
     width: 100%;
     background-color: var(--main-bg);
@@ -115,16 +80,5 @@ footer p:hover{
     }
     100% {
         transform: rotate(360deg);
-    }
-}
-
-@media(max-width: 768px) {
-    .main-header-left {
-        height: auto;
-        margin-top: 5rem 0;
-    }
-    .main-header-right {
-        height: auto;
-        margin-top: 3rem;
     }
 }
