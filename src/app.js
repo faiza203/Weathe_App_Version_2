@@ -10,11 +10,11 @@ app.use(express.static(staticPath));
 //     res.send("Welcome")
 // })
 
-app.get("/about" , (req,res) => {
+app.get("/about.html" , (req,res) => {
     res.send("I am a developer")
 })
 
-app.get("/weather" , (req,res) => {
+app.get("/weather.html" , (req,res) => {
     res.send("Weather")
 })
 
