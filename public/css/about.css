@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-left: 5em;
 }
 
 .main-header-left p {
@@ -18,12 +19,12 @@
 }
 
 .main-header-left h1 {
-    font-size: 3rem;
-    margin-top: 1rem;
+    font-size: 4rem;
     text-transform: capitalize;
 }
 .main-header-left h3 {
     margin: 1rem 0 3rem 0;
+    font-size: 2rem;
 }
 
 .main-header-left .text-clr {
