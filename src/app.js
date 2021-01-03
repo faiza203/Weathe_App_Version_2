@@ -25,7 +25,7 @@ app.get("/weather" , (req,res) => {
 })
 
 app.get("*" , (req,res) => {
-    res.send("404 ERR! Page")
+    res.render("err")
 })
 
 app.listen(port , () =>{

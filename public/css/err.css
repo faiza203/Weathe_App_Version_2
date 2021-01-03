@@ -1,0 +1,17 @@
+#err {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+#err img {
+    margin-top: 5%;
+}
+
+#err a{
+    margin-top: 20%;
+   height: 3em;
+   font-size: 1rem;
+   width: 10em;
+}
