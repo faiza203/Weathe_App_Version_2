@@ -1,12 +1,16 @@
+const hbs = require("hbs");
 const express = require("express");
 const path = require("path");
 
 const app = express();
 const port = process.env.PORT || 8000;
 const staticPath = path.join(__dirname , "../public");
+const hbsPath = path.join(__dirname , "../views");
 
 app.use(express.static(staticPath));
 app.set('view engine', 'hbs');
+app.set('views', hbsPath);
+hbs.registerPartials(hbsPath);
 
 app.get("/" , (req,res) => {
     res.render("index")
@@ -17,7 +21,7 @@ app.get("/about" , (req,res) => {
 })
 
 app.get("/weather" , (req,res) => {
-    res.send("weather")
+    res.render("weather")
 })
 
 app.get("*" , (req,res) => {
