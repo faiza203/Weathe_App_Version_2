@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{>links}}
-    <title>Check Weather</title>
+    <title>Weather</title>
 </head>
+
 <body>
-    <input />
+    {{>navbar}}
+    <div class="contianer-fluid main-header">
+        <div class="row">
+            <div class="col-md-6 col-12 main-header-left">
+                <div class="main-content">
+                    <div class="temp-form">
+                        <input type="text" id="city-name" placeholder="Enter your city name" autocomplete="off">
+                        <button type="submit" id="submit button">Search</button>
+                    </div>
+                </div>
+                <div class="temp-information">
+                    <div class="top_layer">
+                        <p id="day">Monday</p>
+                        <p id="date">4th Jan</p>
+                    </div>
+                <div class="main-layer">
+                    <p id="city-name">Get Result here</p>
+                      <div class="middle-layer data-hide">
+                          <p id="temp"><span>0</span><sub>o</sub>C</p>
+                          <p id="temp-status"><i class="fa fa-cloud" aria-hidden="true"></i></p>
+                      </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
 </body>
+
 </html>
