@@ -1,0 +1,26 @@
+.main-header .row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% 20%;
+}
+
+.temp-form input {
+    background-color: var(--main-bg);
+    border: none;
+    width: 80%;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    border-radius: 3em;
+    height: 3em;
+    padding: 1em 0 1em 1em;
+}
+
+::placeholder {
+    color: white;
+}
+
+.temp-form button {
+    margin-left: -10%;
+}
