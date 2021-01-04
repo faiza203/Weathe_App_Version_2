@@ -13,8 +13,9 @@
     color: white;
     font-size: 15px;
     border-radius: 3em;
-    height: 3em;
-    padding: 1em 0 1em 1em;
+    height: 2em;
+    padding: 20px 0 20px 15px;
+    margin: 0;
 }
 
 ::placeholder {
@@ -22,5 +23,13 @@
 }
 
 .temp-form button {
-    margin-left: -10%;
+    margin: 0 0 0 -10%;
+    height: 100%;
+    width: 7rem;
+    padding: 7px 0 5px 0;
+    background-color:#ffff;
+    border-radius: 1em;
+    color: #007bff;
+    border: #007bff 1px solid;
+    font-weight: 900 ;
 }
