@@ -12,10 +12,10 @@
     <div class="contianer-fluid main-header">
         <div class="row">
             <div class="main-content">
-                <div class="temp-form">
+                <form class="temp-form" onsubmit="submitBtn()">
                     <input type="text" id="weather-city" placeholder="Enter your city name" autocomplete="off">
                     <button type="submit" id="submit-button">Search</button>
-                </div>
+                </form>
             </div>
             <div class="temp-information">
                 <div class="top-layer">
@@ -33,6 +33,7 @@
         </div>
     </div>
     {{>footer}}
+ <script src="./../src/script.js"></script>
 </body>
 
 </html>
