@@ -55,10 +55,17 @@
 }
 
 #city-name{
-font-size: 2em;
+font-size: 15px;
 }
 
 .middle-layer{
     display: flex;
     justify-content: space-between;
+}
+
+#temp{
+    font-size: 2em;
+}
+.middle-layer i{
+    color: #007bff;
 }

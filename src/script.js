@@ -1,0 +1,1 @@
+const api = 'http://api.openweathermap.org/data/2.5/weather?q=Faisalabad&appid=${process.env[%22WEATHER_API_TOKEN%22]}';
