@@ -3,6 +3,7 @@
     flex-direction: column;
     text-align: center;
     margin: 5% 20%;
+    color: #ffffff;
 }
 
 .temp-form input {
@@ -10,12 +11,12 @@
     border: none;
     width: 80%;
     text-align: left;
-    color: white;
     font-size: 15px;
     border-radius: 3em;
     height: 2em;
     padding: 20px 0 20px 15px;
     margin: 0;
+    color: #ffffff;
 }
 
 ::placeholder {
@@ -27,27 +28,37 @@
     height: 100%;
     width: 7rem;
     padding: 7px 0 5px 0;
-    background-color:#ffff;
     border-radius: 1em;
     color: #007bff;
     border: #007bff 1px solid;
-    font-weight: 900 ;
+    font-weight: 900;
 }
 
-.temp-information{
-    margin: 3rem 35%;
+.temp-information {
+    margin: 3rem 38%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: #1a1d29 3px solid;
 }
 
-.top-layer{
+.top-layer {
     padding: 10px 10px 0 10px;
     text-align: center;
-    background-color:#2a2c3a;
-    color: white;
+    background-color: #2a2c3a;
     display: flex;
     justify-content: space-between;
     margin: 0;
 }
 
-.color{
-    color: #313341;
+.main-layer {
+    background-color: #313341;
+    padding: 2em;
+}
+
+#city-name{
+font-size: 2em;
+}
+
+.middle-layer{
+    display: flex;
+    justify-content: space-between;
 }
