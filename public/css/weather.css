@@ -5,18 +5,26 @@
     margin: 5% 20%;
     color: #ffffff;
 }
-
+.temp-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1a1d29;
+    border: none;
+    border-radius: 3em;
+}
 .temp-form input {
     background-color: #1a1d29;
     border: none;
-    width: 80%;
+    border-radius: 3em;   
+     width: 80%;
     text-align: left;
     font-size: 15px;
-    border-radius: 3em;
     height: 2em;
     padding: 20px 0 20px 15px;
     margin: 0;
     color: #ffffff;
+
 }
 
 ::placeholder {
@@ -24,10 +32,8 @@
 }
 
 .temp-form button {
-    margin: 0 0 0 -10%;
-    height: 100%;
-    width: 7rem;
-    padding: 7px 0 5px 0;
+    width: 5rem;
+    margin: 5px 10px 5px 0;
     border-radius: 1em;
     color: #007bff;
     border: #007bff 1px solid;
@@ -35,7 +41,12 @@
 }
 
 .temp-information {
-    margin: 3rem 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 25rem;
+    margin: 5% 30%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: #1a1d29 3px solid;
 }

@@ -7,12 +7,12 @@
     <title>Check Weather</title>
 </head>
 
-<body>
+<body id={{apiId}}>
     {{>navbar}}
     <div class="contianer-fluid main-header">
         <div class="row">
             <div class="main-content">
-                <form class="temp-form" onsubmit="submitBtn()">
+                <form class="temp-form">
                     <input type="text" id="weather-city" placeholder="Enter your city name" autocomplete="off">
                     <button type="submit" id="submit-button">Search</button>
                 </form>
@@ -25,15 +25,15 @@
                 <div class="main-layer">
                     <p id="city-name">Get Result Here</p>
                     <div class="middle-layer data-hide">
-                        <p id="temp"><span>0</span><sub>o</sub>C</p>
-                        <p id="temp-status"><i class="fa fa-3x fa-cloud" aria-hidden="true"></i></p>
+                        <p id="temp"></p>
+                        <p id="temp-status"></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     {{>footer}}
- <script src="./../src/script.js"></script>
+    <script type="text/javascript" src="js/script.js">    </script>
 </body>
 
 </html>
