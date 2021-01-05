@@ -5,7 +5,8 @@
     margin: 5% 20%;
     color: #ffffff;
 }
-.temp-form{
+
+.temp-form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,18 +14,18 @@
     border: none;
     border-radius: 3em;
 }
+
 .temp-form input {
     background-color: #1a1d29;
     border: none;
-    border-radius: 3em;   
-     width: 80%;
+    border-radius: 3em;
+    width: 80%;
     text-align: left;
     font-size: 15px;
     height: 2em;
     padding: 20px 0 20px 15px;
     margin: 0;
     color: #ffffff;
-
 }
 
 ::placeholder {
@@ -66,15 +67,31 @@
     padding: 2em;
 }
 
-#city-name{
-font-size: 17px;
+#city-name {
+    font-size: 17px;
 }
 
-.middle-layer{
+.middle-layer {
     display: flex;
     justify-content: space-between;
 }
 
-#temp{
+#temp {
     font-size: 2em;
+}
+
+.fa-2x {
+    margin-top: 5px;
+}
+
+.fa-sun {
+    color: #eccc68;
+}
+
+.fa-cloud {
+    color: #f1f2f6;
+}
+
+.fa-cloud-rain {
+    color: #a4b0be;
 }
