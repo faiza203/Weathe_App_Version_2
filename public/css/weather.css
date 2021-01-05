@@ -32,7 +32,7 @@
 }
 
 .temp-form button {
-    width: 5rem;
+    width: 7rem;
     margin: 5px 10px 5px 0;
     border-radius: 1em;
     color: #007bff;
@@ -58,6 +58,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0;
+    font-size: 2rem;
 }
 
 .main-layer {
@@ -66,7 +67,7 @@
 }
 
 #city-name{
-font-size: 15px;
+font-size: 17px;
 }
 
 .middle-layer{
@@ -76,7 +77,4 @@ font-size: 15px;
 
 #temp{
     font-size: 2em;
-}
-.middle-layer i{
-    color: #007bff;
 }
