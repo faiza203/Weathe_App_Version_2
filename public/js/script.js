@@ -4,6 +4,7 @@ const city = document.getElementById("weather-city");
 const message = document.getElementById("city-name")
 const day = document.getElementById("day");
 const date = document.getElementById("date");
+const temp = document.getElementById("temp");
 
 const id = body[0].id;
 const currentDate = new Date();
@@ -22,8 +23,7 @@ btn.addEventListener("click", async (e) => {
             let url = `http://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=${id}`;
             const response = await fetch(url);
             const data = await response.json();
-            // console.log(data);
-            console.log(data);
+            temp.innerText =  parseInt(data.main.temp) - 274 + " °C";
         } catch {
             message.innerText = "Add City Name Properly ";
         }
